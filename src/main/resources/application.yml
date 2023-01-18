@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/offer
+    username: postgres
+    password: superuser
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: POSTGRESQL
+    database-platform: postgres
+
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+
+  thymeleaf:
+    mode: LEGACYHTML5
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: muradmirzoev1203@gmail.com
+    password: ozovsriufznqmvgr
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+upload:
+  path: C:\MM22\project-december2022\online-shop\src\main\resources\static\img\images-users
+
+
