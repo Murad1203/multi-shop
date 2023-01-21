@@ -1,11 +1,11 @@
 # multi-shop
-Онлайн магазин разработанный на языке программирования JAVA 
+## Онлайн магазин разработанный на языке программирования JAVA 
 
-Стэк технолгий: 
+## Стэк технолгий: 
 
- Spring Boot 
- JPA 
- Spring Security 
- Email Sender 
- PostgreSQL 
+ - Spring Boot 
+ - JPA 
+ - Spring Security 
+ - Email Sender 
+ - PostgreSQL 
  
